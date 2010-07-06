@@ -1,0 +1,42 @@
+material pelotaMaterial
+{
+	technique
+	{
+		pass
+		{
+			vertex_program_ref velvetSpecular_vs
+			{
+				param_named_auto worldViewProjMatrix worldviewproj_matrix
+				param_named_auto eyePosition camera_position_object_space
+			}
+
+			fragment_program_ref velvetSpecular_ps
+			{
+				param_named opacity float 0.9
+				param_named rimFactor float 6.0
+				param_named rimIntensity float 0.4
+				param_named rimColor float4 1 1 1 1
+				param_named specColor float4 0.5 0.5 0.5 1
+			}
+			
+			texture_unit
+			{			  
+				texture b1.png
+			}
+		}
+	}
+}
+
+material pelotaJuego1 : pelotaMaterial
+{
+	technique
+	{
+		pass
+		{
+			texture_unit
+			{			  
+				texture b1.png
+			}
+		}		
+	}
+}

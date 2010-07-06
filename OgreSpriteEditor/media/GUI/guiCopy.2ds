@@ -1,0 +1,1087 @@
+<!DOCTYPE toglia3dGUI>
+<panel>
+
+  <elemento nombre="FPS" tipo="label">
+    <dimension ancho="150" alto="40" />
+    <posicion x="10" y="10" />
+    <fuente nombre="LucidaSans.ttf" altura="20" />
+    <texto>FPS</texto>
+    <color>#fffc00</color>
+    <sombra>#0040d1</sombra>
+    <alineacion>superiorIzquierda</alineacion>
+  </elemento>
+  
+  <elemento tipo="box" nombre="Fondo">
+    <dimension alto="768" ancho="1024" />
+    <posicion x="0" y="0" />
+    <texturas>
+      <textura archivo="Fondo.png" nombre="default" />
+    </texturas>
+  </elemento>
+  
+
+  
+  
+  <elemento tipo="box" nombre="casilla_1_1">
+    <dimension alto="50" ancho="57" />
+    <posicion x="24" y="118" />
+    <texturas>
+      <textura archivo="casilla_1_1.png" nombre="default" />
+    </texturas>
+  </elemento> 
+
+
+  <elemento tipo="box" nombre="casilla_1_2">
+    <dimension alto="50" ancho="57" />
+    <posicion x="73" y="118" />
+    <texturas>
+      <textura archivo="casilla_1_2.png" nombre="default" />
+    </texturas>
+    <animaciones>
+      <animacion nombre="elastic" duracion="2000" interpolacion="30" bucle="" esconder="false" xA="73" yA="118" xB="73" yB="108" />
+      <animacion nombre="bounce" duracion="200" interpolacion="38" bucle="" esconder="false" xA="73" yA="118" xB="73" yB="130" />
+      <animacion nombre="seno" duracion="500" interpolacion="26" bucle="zigzag" esconder="false" xA="73" yA="118" xB="73" yB="140" />
+    </animaciones>
+  </elemento>
+
+
+  <elemento tipo="box" nombre="casilla_1_3">
+    <dimension alto="50" ancho="57" />
+    <posicion x="122" y="118" />
+    <texturas>
+      <textura archivo="casilla_1_3.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_4">
+    <dimension alto="50" ancho="57" />
+    <posicion x="171" y="118" />
+    <texturas>
+      <textura archivo="casilla_1_4.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_5">
+    <dimension alto="50" ancho="57" />
+    <posicion x="220" y="118" />
+    <texturas>
+      <textura archivo="casilla_1_5.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_6">
+    <dimension alto="50" ancho="57" />
+    <posicion x="24" y="160" />
+    <texturas>
+      <textura archivo="casilla_1_6.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_7">
+    <dimension alto="50" ancho="57" />
+    <posicion x="73" y="160" />
+    <texturas>
+      <textura archivo="casilla_1_7.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_8">
+    <dimension alto="50" ancho="57" />
+    <posicion x="122" y="160" />
+    <texturas>
+      <textura archivo="casilla_1_8.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_9">
+    <dimension alto="50" ancho="57" />
+    <posicion x="171" y="160" />
+    <texturas>
+      <textura archivo="casilla_1_9.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_10">
+    <dimension alto="50" ancho="57" />
+    <posicion x="220" y="160" />
+    <texturas>
+      <textura archivo="casilla_1_10.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_11">
+    <dimension alto="50" ancho="57" />
+    <posicion x="24" y="201" />
+    <texturas>
+      <textura archivo="casilla_1_11.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_12">
+    <dimension alto="50" ancho="57" />
+    <posicion x="73" y="201" />
+    <texturas>
+      <textura archivo="casilla_1_12.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_13">
+    <dimension alto="50" ancho="57" />
+    <posicion x="171" y="201" />
+    <texturas>
+      <textura archivo="casilla_1_13.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_14">
+    <dimension alto="50" ancho="57" />
+    <posicion x="220" y="201" />
+    <texturas>
+      <textura archivo="casilla_1_14.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_15">
+    <dimension alto="50" ancho="57" />
+    <posicion x="24" y="243" />
+    <texturas>
+      <textura archivo="casilla_1_15.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_16">
+    <dimension alto="50" ancho="57" />
+    <posicion x="73" y="243" />
+    <texturas>
+      <textura archivo="casilla_1_16.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_17">
+    <dimension alto="50" ancho="57" />
+    <posicion x="122" y="243" />
+    <texturas>
+      <textura archivo="casilla_1_17.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_18">
+    <dimension alto="50" ancho="57" />
+    <posicion x="171" y="243" />
+    <texturas>
+      <textura archivo="casilla_1_18.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_19">
+    <dimension alto="50" ancho="57" />
+    <posicion x="220" y="243" />
+    <texturas>
+      <textura archivo="casilla_1_19.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_20">
+    <dimension alto="50" ancho="57" />
+    <posicion x="24" y="285" />
+    <texturas>
+      <textura archivo="casilla_1_20.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_21">
+    <dimension alto="50" ancho="57" />
+    <posicion x="73" y="285" />
+    <texturas>
+      <textura archivo="casilla_1_21.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_22">
+    <dimension alto="50" ancho="57" />
+    <posicion x="122" y="285" />
+    <texturas>
+      <textura archivo="casilla_1_22.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_23">
+    <dimension alto="50" ancho="57" />
+    <posicion x="171" y="285" />
+    <texturas>
+      <textura archivo="casilla_1_23.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_1_24">
+    <dimension alto="50" ancho="57" />
+    <posicion x="220" y="285" />
+    <texturas>
+      <textura archivo="casilla_1_24.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_1">
+    <dimension alto="51" ancho="57" />
+    <posicion x="24" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_2">
+    <dimension alto="51" ancho="58" />
+    <posicion x="72" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_3">
+    <dimension alto="51" ancho="58" />
+    <posicion x="121" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_4">
+    <dimension alto="51" ancho="58" />
+    <posicion x="170" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_5">
+    <dimension alto="51" ancho="58" />
+    <posicion x="219" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_6">
+    <dimension alto="51" ancho="57" />
+    <posicion x="24" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_7">
+    <dimension alto="51" ancho="58" />
+    <posicion x="72" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_8">
+    <dimension alto="51" ancho="58" />
+    <posicion x="121" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_9">
+    <dimension alto="51" ancho="58" />
+    <posicion x="170" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_10">
+    <dimension alto="51" ancho="58" />
+    <posicion x="219" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_11">
+    <dimension alto="51" ancho="57" />
+    <posicion x="24" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_12">
+    <dimension alto="51" ancho="58" />
+    <posicion x="72" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_13">
+    <dimension alto="51" ancho="58" />
+    <posicion x="170" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_14">
+    <dimension alto="50" ancho="58" />
+    <posicion x="219" y="465" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_15">
+    <dimension alto="51" ancho="57" />
+    <posicion x="24" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_16">
+    <dimension alto="51" ancho="58" />
+    <posicion x="72" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_17">
+    <dimension alto="51" ancho="58" />
+    <posicion x="121" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_18">
+    <dimension alto="51" ancho="58" />
+    <posicion x="170" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_19">
+    <dimension alto="51" ancho="58" />
+    <posicion x="219" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_20">
+    <dimension alto="51" ancho="57" />
+    <posicion x="24" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_21">
+    <dimension alto="51" ancho="58" />
+    <posicion x="72" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_22">
+    <dimension alto="50" ancho="58" />
+    <posicion x="121" y="549" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_23">
+    <dimension alto="51" ancho="58" />
+    <posicion x="170" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_4_24">
+    <dimension alto="50" ancho="58" />
+    <posicion x="219" y="549" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_1">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_2">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_3">
+    <dimension alto="51" ancho="58" />
+    <posicion x="393" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_4">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_5">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_6">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_7">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_8">
+    <dimension alto="51" ancho="58" />
+    <posicion x="393" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_9">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_10">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_11">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_12">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_13">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_14">
+    <dimension alto="50" ancho="58" />
+    <posicion x="491" y="465" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_15">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_16">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_17">
+    <dimension alto="51" ancho="58" />
+    <posicion x="393" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_18">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_19">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_20">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_21">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_22">
+    <dimension alto="50" ancho="58" />
+    <posicion x="393" y="549" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_23">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_5_24">
+    <dimension alto="50" ancho="58" />
+    <posicion x="491" y="549" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_1">
+    <dimension alto="50" ancho="57" />
+    <posicion x="296" y="118" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_2">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_3">
+    <dimension alto="51" ancho="58" />
+    <posicion x="393" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_4">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_5">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_6">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_7">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_8">
+    <dimension alto="51" ancho="58" />
+    <posicion x="393" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_9">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_10">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_11">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_12">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_13">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_14">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_15">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_16">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_17">
+    <dimension alto="51" ancho="58" />
+    <posicion x="393" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_18">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_19">
+    <dimension alto="51" ancho="58" />
+    <posicion x="491" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_20">
+    <dimension alto="51" ancho="57" />
+    <posicion x="296" y="284" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_21">
+    <dimension alto="51" ancho="58" />
+    <posicion x="344" y="284" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_22">
+    <dimension alto="50" ancho="58" />
+    <posicion x="393" y="285" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_23">
+    <dimension alto="51" ancho="58" />
+    <posicion x="442" y="284" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_2_24">
+    <dimension alto="50" ancho="58" />
+    <posicion x="491" y="285" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_1">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_2">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_3">
+    <dimension alto="51" ancho="58" />
+    <posicion x="665" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_4">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_5">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="117" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_6">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_7">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_8">
+    <dimension alto="51" ancho="58" />
+    <posicion x="665" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_9">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_10">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="159" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_11">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_12">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_13">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_14">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="200" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_15">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_16">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_17">
+    <dimension alto="51" ancho="58" />
+    <posicion x="665" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_18">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_19">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="242" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_20">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="284" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_21">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="284" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_22">
+    <dimension alto="50" ancho="58" />
+    <posicion x="665" y="285" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_23">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="284" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_3_24">
+    <dimension alto="50" ancho="58" />
+    <posicion x="763" y="285" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_1">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="380" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_2">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_3">
+    <dimension alto="51" ancho="58" />
+    <posicion x="665" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_4">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_5">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="381" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_6">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_7">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_8">
+    <dimension alto="51" ancho="58" />
+    <posicion x="665" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_9">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_10">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="423" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_11">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_12">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_13">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="464" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_14">
+    <dimension alto="50" ancho="58" />
+    <posicion x="763" y="465" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_15">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_16">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_17">
+    <dimension alto="51" ancho="58" />
+    <posicion x="665" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_18">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_19">
+    <dimension alto="51" ancho="58" />
+    <posicion x="763" y="506" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_20">
+    <dimension alto="51" ancho="57" />
+    <posicion x="568" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_21">
+    <dimension alto="51" ancho="58" />
+    <posicion x="616" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_22">
+    <dimension alto="50" ancho="58" />
+    <posicion x="665" y="549" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_23">
+    <dimension alto="51" ancho="58" />
+    <posicion x="714" y="548" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="casilla_6_24">
+    <dimension alto="50" ancho="58" />
+    <posicion x="763" y="549" />
+    <texturas>
+      <textura archivo="casilla_null.png" nombre="default" />
+    </texturas>
+  </elemento>
+  
+    <elemento tipo="box" nombre="carton_6">
+    <dimension alto="269" ancho="279" />
+    <posicion x="555" y="343" />
+    <texturas>
+      <textura archivo="carton_6.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="carton_5">
+    <dimension alto="269" ancho="279" />
+    <posicion x="283" y="343" />
+    <texturas>
+      <textura archivo="carton_5.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="carton_4">
+    <dimension alto="269" ancho="279" />
+    <posicion x="11" y="343" />
+    <texturas>
+      <textura archivo="carton_4.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="carton_3">
+    <dimension alto="269" ancho="279" />
+    <posicion x="555" y="79" />
+    <texturas>
+      <textura archivo="carton_3.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="carton_2">
+    <dimension alto="269" ancho="279" />
+    <posicion x="283" y="79" />
+    <texturas>
+      <textura archivo="carton_2.png" nombre="default" />
+    </texturas>
+  </elemento>
+  <elemento tipo="box" nombre="carton_1">
+    <dimension alto="269" ancho="279" />
+    <posicion x="11" y="79" />
+    <texturas>
+      <textura archivo="carton_1.png" nombre="default" />
+    </texturas>
+  </elemento>
+  
+</panel>
+
